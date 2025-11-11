@@ -1,0 +1,11 @@
+{
+  "generated": "2025-11-09T14:31:07.971000",
+  "datasets": {
+    "topBatsmen.json": 500,
+    "economicalBowlers.json": 20,
+    "tossImpact.json": 20,
+    "runsInWins.json": 20,
+    "matchData.json": 9
+  },
+  "totalRecords": 569
+}

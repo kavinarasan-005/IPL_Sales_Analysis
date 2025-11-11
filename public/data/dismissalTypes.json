@@ -1,0 +1,34 @@
+[
+  {
+    "out_type": "caught",
+    "frequency": 1250
+  },
+  {
+    "out_type": "bowled",
+    "frequency": 890
+  },
+  {
+    "out_type": "run out",
+    "frequency": 450
+  },
+  {
+    "out_type": "lbw",
+    "frequency": 320
+  },
+  {
+    "out_type": "stumped",
+    "frequency": 180
+  },
+  {
+    "out_type": "caught and bowled",
+    "frequency": 95
+  },
+  {
+    "out_type": "hit wicket",
+    "frequency": 45
+  },
+  {
+    "out_type": "retired hurt",
+    "frequency": 12
+  }
+]

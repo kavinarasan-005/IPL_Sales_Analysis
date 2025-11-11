@@ -1,0 +1,42 @@
+[
+  {
+    "team1": "Rajasthan Royals",
+    "matches_played": 3,
+    "wins_after_toss": 1
+  },
+  {
+    "team1": "Chennai Super Kings",
+    "matches_played": 2,
+    "wins_after_toss": 1
+  },
+  {
+    "team1": "Deccan Chargers",
+    "matches_played": 3,
+    "wins_after_toss": 0
+  },
+  {
+    "team1": "Mumbai Indians",
+    "matches_played": 2,
+    "wins_after_toss": 0
+  },
+  {
+    "team1": "Delhi Daredevils",
+    "matches_played": 2,
+    "wins_after_toss": 0
+  },
+  {
+    "team1": "Kings XI Punjab",
+    "matches_played": 2,
+    "wins_after_toss": 0
+  },
+  {
+    "team1": "Kolkata Knight Ri...",
+    "matches_played": 2,
+    "wins_after_toss": 0
+  },
+  {
+    "team1": "Royal Challengers...",
+    "matches_played": 2,
+    "wins_after_toss": 0
+  }
+]
