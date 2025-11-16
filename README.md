@@ -2,7 +2,7 @@
 
 A comprehensive data analysis and visualization project that processes large-scale IPL (Indian Premier League) cricket data using PySpark and presents interactive insights through a modern React web dashboard.
 
-![IPL Dashboard Preview](images/dashboard-screenshot.png)
+![IPL Dashboard Preview](images/IPL_ANALYSIS.jpg)
 
 ## 🏏 Project Overview
 
@@ -48,12 +48,14 @@ This project demonstrates a complete data science workflow:
 ## 🚀 Tech Stack
 
 ### Backend/Analysis
+
 - **PySpark**: Distributed data processing
 - **Spark SQL**: Complex query processing
 - **AWS S3**: Data storage
 - **Python 3**: Data processing scripts
 
 ### Frontend
+
 - **React 18.2**: UI framework
 - **Recharts 2.8**: Interactive charting library
 - **Tailwind CSS 3.3**: Utility-first styling
@@ -136,24 +138,31 @@ React Dashboard (Interactive Visualization)
 ## 📊 Key Analyses
 
 ### 1. Top Scoring Batsmen Per Season
+
 Identifies top run scorers for each IPL season with season-wise filtering.
 
 ### 2. Economical Bowlers (Powerplay)
+
 Analyzes most economical bowlers during powerplay overs (overs 1-6).
 
 ### 3. Toss Impact Analysis
+
 Analyzes correlation between winning the toss and winning the match.
 
 ### 4. Average Runs in Wins
+
 Identifies players who perform best in winning matches (clutch performers).
 
 ### 5. Scores by Venue
+
 Analyzes scoring patterns by venue/stadium.
 
 ### 6. Dismissal Types
+
 Analyzes most common dismissal types in IPL.
 
 ### 7. Team Toss Performance
+
 Analyzes team performance after winning the toss.
 
 ## 🚀 Deployment
@@ -169,6 +178,7 @@ This creates an optimized production build in the `build/` folder.
 ### Deploy
 
 The `build` folder can be deployed to any static hosting service:
+
 - [Vercel](https://vercel.com/)
 - [Netlify](https://www.netlify.com/)
 - [AWS S3](https://aws.amazon.com/s3/)
@@ -177,16 +187,19 @@ The `build` folder can be deployed to any static hosting service:
 ## 🐛 Troubleshooting
 
 ### Data not loading?
+
 1. Ensure data files exist in `public/data/`
 2. Run `python3 prepare_data.py` to regenerate JSON files
 3. Check browser console for errors
 
 ### Charts not displaying?
+
 1. Verify Recharts is installed: `npm list recharts`
 2. Check that data is in correct format
 3. Look for errors in browser console
 
 ### Build errors?
+
 1. Clear node_modules: `rm -rf node_modules`
 2. Reinstall: `npm install`
 3. Clear cache: `npm start -- --reset-cache`
