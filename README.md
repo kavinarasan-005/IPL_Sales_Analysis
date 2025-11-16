@@ -2,7 +2,7 @@
 
 A comprehensive data analysis and visualization project that processes large-scale IPL (Indian Premier League) cricket data using PySpark and presents interactive insights through a modern React web dashboard.
 
-![IPL Dashboard Preview](images/IPL_ANALYSIS.jpg)
+![IPL Dashboard Preview](https://github.com/kavinarasan-005/IPL_Sales_Analysis/blob/main/images/IPL_ANALYSIS.jpg?raw=true)
 
 ## 🏏 Project Overview
 
