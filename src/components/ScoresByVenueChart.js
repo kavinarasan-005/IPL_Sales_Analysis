@@ -85,7 +85,7 @@ const ScoresByVenueChart = ({ data }) => {
     <div>
       <div className="mb-4 flex justify-between items-center">
         <div>
-          <h3 className="text-lg font-semibold text-gray-700">Scores by Venue</h3>
+        <h3 className="text-lg font-semibold text-gray-700">Scores by Venue</h3>
           <p className="text-sm text-gray-500 mt-1">Showing: {currentMetricLabel}</p>
         </div>
         <div className="flex gap-2">
@@ -151,10 +151,10 @@ const ScoresByVenueChart = ({ data }) => {
               // Use solid, distinct colors based on metric
               const fillColor = sortBy === 'average' ? '#3B82F6' : '#A855F7';
               return (
-                <Cell
+              <Cell
                   key={`cell-${entry.venue_name}-${sortBy}-${index}`}
                   fill={fillColor}
-                />
+              />
               );
             })}
           </Bar>

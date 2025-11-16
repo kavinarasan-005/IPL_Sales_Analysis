@@ -17,7 +17,7 @@ const TeamTossPerformanceChart = ({ data }) => {
   // Process and prepare chart data - MUST be called before any conditional returns
   const chartData = useMemo(() => {
     // Handle empty data
-    if (!data || !Array.isArray(data) || data.length === 0) {
+  if (!data || !Array.isArray(data) || data.length === 0) {
       return [];
     }
 
@@ -111,7 +111,7 @@ const TeamTossPerformanceChart = ({ data }) => {
     <div>
       <div className="mb-4 flex justify-between items-center">
         <div>
-          <h3 className="text-lg font-semibold text-gray-700">Team Performance After Winning Toss</h3>
+        <h3 className="text-lg font-semibold text-gray-700">Team Performance After Winning Toss</h3>
           <p className="text-sm text-gray-500 mt-1">Showing {chartData.length} teams</p>
         </div>
         <div className="flex gap-2">

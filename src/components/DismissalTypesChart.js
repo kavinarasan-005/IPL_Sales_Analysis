@@ -115,11 +115,11 @@ const DismissalTypesChart = ({ data }) => {
         <div className="w-full">
           <ResponsiveContainer width="100%" height={500}>
             <PieChart margin={{ top: 10, right: 10, bottom: 100, left: 10 }}>
-              <Pie
-                data={sortedData}
-                cx="50%"
+            <Pie
+              data={sortedData}
+              cx="50%"
                 cy="45%"
-                labelLine={false}
+              labelLine={false}
                 label={({ percent }) => {
                   // Only show percentage labels for slices larger than 5% to avoid clutter
                   if (percent > 0.05) {
@@ -129,16 +129,16 @@ const DismissalTypesChart = ({ data }) => {
                 }}
                 outerRadius={100}
                 innerRadius={0}
-                fill="#8884d8"
-                dataKey="frequency"
+              fill="#8884d8"
+              dataKey="frequency"
                 nameKey="formattedType"
                 paddingAngle={1}
                 isAnimationActive={true}
-              >
-                {sortedData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                ))}
-              </Pie>
+            >
+              {sortedData.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+              ))}
+            </Pie>
               <Tooltip 
                 content={({ active, payload }) => {
                   if (active && payload && payload.length) {
@@ -174,8 +174,8 @@ const DismissalTypesChart = ({ data }) => {
                 iconType="circle"
                 layout="horizontal"
               />
-            </PieChart>
-          </ResponsiveContainer>
+          </PieChart>
+        </ResponsiveContainer>
         </div>
       )}
     </div>
